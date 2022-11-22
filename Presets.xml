@@ -1,0 +1,103 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Profiles>
+  <profile name="Preset(31.6)">
+    <frequency>31.6</frequency>
+    <cycle>175</cycle>
+    <voltage>1.0</voltage>
+  </profile>
+  <profile name="Preset(53.2)">
+    <frequency>53.2</frequency>
+    <cycle>295</cycle>
+    <voltage>0.6</voltage>
+  </profile>
+  <profile name="Preset(74.8)">
+    <frequency>74.8</frequency>
+    <cycle>415</cycle>
+    <voltage>0.5</voltage>
+  </profile>
+  <profile name="Preset(96.4)">
+    <frequency>96.4</frequency>
+    <cycle>535</cycle>
+    <voltage>0.5</voltage>
+  </profile>
+  <profile name="Preset(204.4)">
+    <frequency>204.4</frequency>
+    <cycle>1135</cycle>
+    <voltage>0.5</voltage>
+  </profile>
+  <profile name="Preset(25)">
+    <frequency>25</frequency>
+    <cycle>137</cycle>
+    <voltage>1</voltage>
+  </profile>
+  <profile name="Preset(139.6)">
+    <frequency>139.6</frequency>
+    <cycle>775</cycle>
+    <voltage>0.5</voltage>
+  </profile>
+  <profile name="Preset(290.8)">
+    <frequency>290.8</frequency>
+    <cycle>1615</cycle>
+    <voltage>0.02</voltage>
+  </profile>
+  <profile name="Preset(398.8)">
+    <frequency>398.8</frequency>
+    <cycle>2215</cycle>
+    <voltage>0.02</voltage>
+  </profile>
+  <profile name="Preset(485.2)">
+    <frequency>485.2</frequency>
+    <cycle>2695</cycle>
+    <voltage>0.02</voltage>
+  </profile>
+  <profile name="Preset(10)">
+    <frequency>10</frequency>
+    <cycle>55</cycle>
+    <voltage>1.5</voltage>
+  </profile>
+  <profile name="Preset(593.2)">
+    <frequency>593.2</frequency>
+    <cycle>3295</cycle>
+    <voltage>0.02</voltage>
+  </profile>
+  <profile name="Preset(679.6)">
+    <frequency>679.6</frequency>
+    <cycle>3775</cycle>
+    <voltage>0.02</voltage>
+  </profile>
+  <profile name="Preset(787.6)">
+    <frequency>787.6</frequency>
+    <cycle>4375</cycle>
+    <voltage>0.02</voltage>
+  </profile>
+  <profile name="Preset(895.6)">
+    <frequency>895.6</frequency>
+    <cycle>4975</cycle>
+    <voltage>0.02</voltage>
+  </profile>
+  <profile name="Preset(982)">
+    <frequency>982</frequency>
+    <cycle>5455</cycle>
+    <voltage>0.02</voltage>
+  </profile>
+  <profile name="Preset(1241.2)">
+    <frequency>1241.2</frequency>
+    <cycle>6895</cycle>
+    <voltage>0.02</voltage>
+  </profile>
+  <profile name="Preset(1478.8)">
+    <frequency>1478.8</frequency>
+    <cycle>8215</cycle>
+    <voltage>0.02</voltage>
+  </profile>
+  <profile name="Preset(1738)">
+    <frequency>1738</frequency>
+    <cycle>9655</cycle>
+    <voltage>0.02</voltage>
+  </profile>
+  <profile name="Preset(1997.2)">
+    <frequency>1997.2</frequency>
+    <cycle>11095</cycle>
+    <voltage>0.02</voltage>
+  </profile>
+</Profiles>
