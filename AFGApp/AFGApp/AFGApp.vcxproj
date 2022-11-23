@@ -94,9 +94,14 @@
     <ClCompile>
       <WarningLevel>Level3</WarningLevel>
       <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>$(RepositoryPath)\TekAFGController\AFGApp\AFGApp\Include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PrecompiledHeaderFile>stdafx.h;visa.h</PrecompiledHeaderFile>
     </ClCompile>
     <Link>
-      <AdditionalDependencies />
+      <AdditionalDependencies>tkVisa64.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <EntryPointSymbol>main</EntryPointSymbol>
+      <RandomizedBaseAddress>false</RandomizedBaseAddress>
+      <AdditionalLibraryDirectories>$(RepositoryPath)\TekAFGController\AFGApp\AFGApp\Include</AdditionalLibraryDirectories>
     </Link>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
