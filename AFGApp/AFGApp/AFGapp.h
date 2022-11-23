@@ -783,7 +783,6 @@ namespace AFGapp {
 		}
 #pragma endregion
 		String^ preset_path = "Presets.xml";
-		//"C:\\Users\\gl777\\Desktop\\Preset Waves\\AFG ControlApp\\AFGApp\\Presets.xml";
 
 
 		void connect(Boolean only_write, int hold, ViBuf command, std::string out) {
