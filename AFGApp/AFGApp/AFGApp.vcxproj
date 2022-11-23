@@ -33,6 +33,9 @@
       <FileType>CppForm</FileType>
     </ClInclude>
   </ItemGroup>
+  <ItemGroup>
+    <Xml Include="..\Presets.xml" />
+  </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>17.0</VCProjectVersion>
     <ProjectGuid>{A59BC449-76FA-40A6-96EE-FAC714580F11}</ProjectGuid>
@@ -102,6 +105,7 @@
       <EntryPointSymbol>main</EntryPointSymbol>
       <RandomizedBaseAddress>false</RandomizedBaseAddress>
       <AdditionalLibraryDirectories>$(RepositoryPath)\TekAFGController\AFGApp\AFGApp\Include</AdditionalLibraryDirectories>
+      <DelayLoadDLLs>Visa32.dll;%(DelayLoadDLLs)</DelayLoadDLLs>
     </Link>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
